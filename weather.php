@@ -7,7 +7,7 @@ error_reporting(E_ALL);
 require 'vendor/autoload.php';
 
 $apiKey = 'b99e0cd94eeb51e89abfc0670b7d7db4'; 
-$city = isset($_GET['city']) ? $_GET['city'] : 'Porto Alegre'; 
+$city = isset($_GET['city']) ? $_GET['city'] : 'Brasilia'; 
 
 $params = [
     'q' => $city,
