@@ -1,0 +1,12 @@
+{
+    "name": "guilherme/weather",
+    "authors": [
+        {
+            "name": "Guilherme Pinheiro",
+            "email": "guilhermepmrocha@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
