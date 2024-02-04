@@ -1,0 +1,76 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.5s ease;
+}
+
+.weather-container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+h1 {
+  color: #333;
+}
+
+.temperature {
+  font-size: 2em;
+  color: #e44d26;
+}
+
+.weather-details {
+  margin-top: 20px;
+}
+
+.weather-details p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.clear-sky {
+  background-color: #87ceeb;
+}
+.few-clouds {
+  background-color: #87cefa;
+}
+.scattered-clouds {
+  background-color: #b0c4de;
+}
+.overcast {
+  background-color: #808080;
+}
+.light-rain {
+  background-color: #a9a9a9;
+}
+.moderate-rain {
+  background-color: #696969;
+}
+.heavy-rain {
+  background-color: #2f4f4f;
+}
+.short-duration-rain {
+  background-color: #778899;
+}
+.light-snow {
+  background-color: #add8e6;
+}
+.moderate-snow {
+  background-color: rgb(119, 237, 255);
+}
+.heavy-snow {
+  background-color: #4682b4;
+}
+.thunderstorm {
+  background-color: #800000;
+}
+.fog {
+  background-color: #d3d3d3;
+}
