@@ -7,7 +7,11 @@ error_reporting(E_ALL);
 require 'vendor/autoload.php';
 
 $apiKey = 'b99e0cd94eeb51e89abfc0670b7d7db4'; 
+<<<<<<< HEAD
 $city = isset($_GET['city']) ? $_GET['city'] : 'Porto Alegre'; 
+=======
+$city = isset($_GET['city']) ? $_GET['city'] : 'Brasilia'; 
+>>>>>>> 3e65d8f6b5931430ca834ec37f574505c8c04b48
 
 $params = [
     'q' => $city,
@@ -42,6 +46,7 @@ $descricao = ucfirst($data['weather'][0]['description']);
     
 </head>
 <body>
+<<<<<<< HEAD
     <script>
     gi var descricao = "<?php echo $descricao; ?>";
 </script>
@@ -49,6 +54,13 @@ $descricao = ucfirst($data['weather'][0]['description']);
     <div class="weather-container">
         <h1>Previsão do Tempo - <?=$cidade?></h1>
         <div class="temperature"><?=$temperatura?>°C</div> 
+=======
+    <script> var descricao = "<?php echo $descricao; ?>";</script>
+    
+    <div class="weather-container">
+        <h1>Previsão do Tempo - <?=$cidade?></h1>
+        <div class="temperature"><?=$temperatura?>°C</div>
+>>>>>>> 3e65d8f6b5931430ca834ec37f574505c8c04b48
         <div class="weather-details">
             <p><?=$descricao?></p>
         </div>
